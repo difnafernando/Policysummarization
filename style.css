@@ -1,0 +1,115 @@
+/* ─────────────────────────────────────────────
+   Policy Summarisation and Adaptation System
+   Custom CSS — Streamlit Override Stylesheet
+   ───────────────────────────────────────────── */
+
+/* Main Title */
+[data-testid="stAppViewContainer"] h1 {
+    color: #1a73e8 !important;
+    font-weight: 700 !important;
+}
+
+/* Subheaders */
+[data-testid="stAppViewContainer"] h2,
+[data-testid="stAppViewContainer"] h3 {
+    color: #1a73e8 !important;
+    font-weight: 700 !important;
+}
+
+/* h4 headings */
+[data-testid="stAppViewContainer"] h4 {
+    color: #1a73e8 !important;
+    font-weight: 700 !important;
+}
+
+/* All paragraph text */
+[data-testid="stAppViewContainer"] p {
+    color: #2c2c2c !important;
+    font-size: 0.97rem !important;
+    line-height: 1.7 !important;
+}
+
+/* Text area box */
+[data-testid="stAppViewContainer"] textarea {
+    background-color: #f0f4ff !important;
+    color: #2c2c2c !important;
+    border: 1.5px solid #1a73e8 !important;
+    border-radius: 6px !important;
+    font-size: 0.95rem !important;
+}
+
+/* Primary buttons */
+[data-testid="stAppViewContainer"] .stButton > button[kind="primary"] {
+    background-color: #1a73e8 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    border: none !important;
+}
+
+[data-testid="stAppViewContainer"] .stButton > button[kind="primary"]:hover {
+    background-color: #1558b0 !important;
+}
+
+/* All buttons */
+[data-testid="stAppViewContainer"] .stButton > button {
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+}
+
+/* Download buttons */
+[data-testid="stAppViewContainer"] .stDownloadButton > button {
+    background-color: #34a853 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    border: none !important;
+}
+
+[data-testid="stAppViewContainer"] .stDownloadButton > button:hover {
+    background-color: #2d8f47 !important;
+}
+
+/* Expander header */
+[data-testid="stExpander"] summary {
+    font-weight: 600 !important;
+    color: #1a73e8 !important;
+}
+
+/* Caption text */
+[data-testid="stAppViewContainer"] .stCaption p {
+    color: #666666 !important;
+    font-size: 0.85rem !important;
+}
+
+/* Page background */
+[data-testid="stAppViewContainer"] {
+    background-color: #ffffff !important;
+}
+
+/* Top header bar */
+[data-testid="stHeader"] {
+    background-color: #ffffff !important;
+}
+
+/* Divider */
+hr {
+    border-top: 1.5px solid #c5cae9 !important;
+}
+
+/* Radio label */
+[data-testid="stRadio"] label {
+    font-weight: 500 !important;
+    color: #2c2c2c !important;
+}
+
+/* Selectbox label */
+[data-testid="stSelectbox"] label {
+    font-weight: 500 !important;
+    color: #2c2c2c !important;
+}
+
+/* Spinner text */
+[data-testid="stSpinner"] p {
+    color: #1a73e8 !important;
+}
